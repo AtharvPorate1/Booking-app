@@ -1,0 +1,38 @@
+
+{
+    "bookings": [
+      {
+        "id": 1,
+        "storeName": "Store 1",
+        "serviceType": "Type A",
+        "openingTime": "09:00",
+        "closingTime": "17:00",
+        "timeSlotSize": 60,
+        "services": [
+          {
+            "serviceName": "Service A1"
+          },
+          {
+            "serviceName": "Service A2"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "storeName": "Store 2",
+        "serviceType": "Type B",
+        "openingTime": "09:30",
+        "closingTime": "18:00",
+        "timeSlotSize": 45,
+        "services": [
+          {
+            "serviceName": "Service B1"
+          },
+          {
+            "serviceName": "Service B2"
+          }
+        ]
+      }
+    ]
+  }
+  
