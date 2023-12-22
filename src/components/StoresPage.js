@@ -1,6 +1,8 @@
 // StoresPage.js
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import AddStoreButton from './AddStoreButton';
+
 
 function StoresPage() {
   const [stores, setStores] = useState([]);
@@ -24,6 +26,7 @@ function StoresPage() {
           <hr />
         </div>
       ))}
+      <AddStoreButton></AddStoreButton>
     </div>
   );
 }

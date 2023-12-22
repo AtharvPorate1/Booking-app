@@ -1,36 +1,51 @@
-
 {
     "bookings": [
       {
         "id": 1,
-        "storeName": "Store 1",
-        "serviceType": "Type A",
-        "openingTime": "09:00",
-        "closingTime": "17:00",
-        "timeSlotSize": 60,
+        "storeName": "Dentist Clinic",
+        "serviceType": "Dentist",
+        "openingTime": "08:00",
+        "closingTime": "18:00",
+        "timeSlotSize": 30,
         "services": [
-          {
-            "serviceName": "Service A1"
-          },
-          {
-            "serviceName": "Service A2"
-          }
+          { "serviceName": "Teeth Cleaning" },
+          { "serviceName": "Cavity Filling" }
         ]
       },
       {
         "id": 2,
-        "storeName": "Store 2",
-        "serviceType": "Type B",
-        "openingTime": "09:30",
-        "closingTime": "18:00",
-        "timeSlotSize": 45,
+        "storeName": "GameHouse Snooker",
+        "serviceType": "Entertainment",
+        "openingTime": "12:00",
+        "closingTime": "23:00",
+        "timeSlotSize": 60,
         "services": [
-          {
-            "serviceName": "Service B1"
-          },
-          {
-            "serviceName": "Service B2"
-          }
+          { "serviceName": "Snooker Table Rental" },
+          { "serviceName": "Arcade Games" }
+        ]
+      },
+      {
+        "id": 3,
+        "storeName": "Fashion Boutique",
+        "serviceType": "Retail",
+        "openingTime": "10:00",
+        "closingTime": "19:00",
+        "timeSlotSize": 30,
+        "services": [
+          { "serviceName": "Clothing Styling" },
+          { "serviceName": "Accessories Consultation" }
+        ]
+      },
+      {
+        "id": 4,
+        "storeName": "Tech Hub",
+        "serviceType": "Technology",
+        "openingTime": "09:00",
+        "closingTime": "20:00",
+        "timeSlotSize": 60,
+        "services": [
+          { "serviceName": "Device Repair" },
+          { "serviceName": "Software Development" }
         ]
       }
     ]
