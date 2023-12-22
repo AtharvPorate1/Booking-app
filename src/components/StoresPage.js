@@ -18,17 +18,9 @@ function StoresPage() {
         <div key={store.id}>
           <h2>{store.storeName}</h2>
           <p>Type: {store.serviceType}</p>
-          <p>Opening Time: {store.openingTime}</p>
-          <p>Closing Time: {store.closingTime}</p>
-          <p>Time-Slot Size: {store.timeSlotSize} minutes</p>
-          <ul>
-            {store.services.map(service => (
-              <li key={service.serviceName}>
-                {service.serviceName}
-              </li>
-            ))}
-          </ul>
-          <Link to={`/add-booking/${store.id}`}>Add Booking</Link>
+          <Link to={`/add-booking/${store.id}`}>
+            <button>Add Booking</button>
+          </Link>
           <hr />
         </div>
       ))}
